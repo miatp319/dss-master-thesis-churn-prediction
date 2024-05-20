@@ -1,0 +1,13 @@
+model,best_params,mean_test_score
+LGBM-Imbalanced data,"{'LGBM__feature_fraction': 0.8, 'LGBM__learning_rate': 0.1, 'LGBM__min_child_samples': 20, 'LGBM__num_leaves': 20}",0.9413892168229075
+LGBM-SMOTE,"{'LGBM__feature_fraction': 0.5, 'LGBM__learning_rate': 0.1, 'LGBM__min_child_samples': 60, 'LGBM__num_leaves': 40}",0.9372034912686378
+LGBM-SMOTE Tomek Links,"{'LGBM__feature_fraction': 0.6, 'LGBM__learning_rate': 0.1, 'LGBM__min_child_samples': 20, 'LGBM__num_leaves': 40}",0.9367982437878677
+XGB-Imbalanced data,"{'XGB__colsample_bytree': 0.8, 'XGB__learning_rate': 0.01, 'XGB__max_depth': 6, 'XGB__min_child_weight': 5, 'XGB__n_estimators': 300, 'XGB__subsample': 0.8}",0.9414098917179373
+XGB-SMOTE,"{'XGB__colsample_bytree': 0.8, 'XGB__learning_rate': 0.1, 'XGB__max_depth': 6, 'XGB__min_child_weight': 3, 'XGB__n_estimators': 400, 'XGB__subsample': 0.8}",0.9381682830462313
+XGB-SMOTE Tomek Links,"{'XGB__colsample_bytree': 0.8, 'XGB__learning_rate': 0.1, 'XGB__max_depth': 6, 'XGB__min_child_weight': 1, 'XGB__n_estimators': 400, 'XGB__subsample': 0.8}",0.9377896565366568
+LR-Imbalanced data,"{'LR__C': 0.5, 'LR__penalty': 'l1', 'LR__solver': 'liblinear'}",0.940190566616591
+LR-SMOTE,"{'LR__C': 0.01, 'LR__penalty': 'l2', 'LR__solver': 'liblinear'}",0.7953652357284124
+LR-SMOTE Tomek Links,"{'LR__C': 0.5, 'LR__penalty': 'l2', 'LR__solver': 'liblinear'}",0.7968575210982642
+SVM-Imbalanced data,"{'SVM__C': 10.0, 'SVM__kernel': 'rbf'}",0.9406977413943416
+SVM-SMOTE,"{'SVM__C': 0.1, 'SVM__kernel': 'rbf'}",0.819888422329392
+SVM-SMOTE Tomek Links,"{'SVM__C': 0.1, 'SVM__kernel': 'rbf'}",0.8198132124453725
